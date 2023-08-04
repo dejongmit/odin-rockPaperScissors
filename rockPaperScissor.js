@@ -11,12 +11,12 @@ function playRound(playerSelection, computerSelection){
     playerSelection = playerSelection.toLowerCase();
     playerSelection = playerSelection.substring(0,1).toUpperCase() + playerSelection.substr(1);
 
-    //Compare the resutls of the selections to determine a winner
+    //Compare the results of the selections to determine a winner
     if (playerSelection === "Rock" && computerSelection === "Scissors") {
         return `You Win! Your choice of ${playerSelection} beats the Computer's choice of ${computerSelection}.`
     } else if (playerSelection === "Paper" && computerSelection === "Rock") {
         return `You Win! Your choice of ${playerSelection} beats the Computer's choice of ${computerSelection}.`
-    } else if (playerSelection === "Scissors" && computerSelection === "Rock") {
+    } else if (playerSelection === "Scissors" && computerSelection === "Paper") {
         return `You Win! Your choice of ${playerSelection} beats the Computer's choice of ${computerSelection}.`
     } else if (playerSelection === computerSelection) {
         return `It's a tie! You and the computer both chose ${playerSelection}.`
