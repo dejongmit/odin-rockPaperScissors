@@ -1,0 +1,25 @@
+.btnHolder {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+.messageDisplay {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+button {
+    font-size: 16px;
+    margin: 0 8px;
+}
+
+p {
+    margin: 16px 16px;
+}
